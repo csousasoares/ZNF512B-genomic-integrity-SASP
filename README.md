@@ -122,14 +122,6 @@ The notebook:
 
 ZNF512B knockdown in primary fibroblasts leads to a robust upregulation of senescence- and inflammation-associated signatures, consistent with the original paper. Notably, p53 targets such as `CDKN1A` and `MDM2`, as well as `CDKN2A`, were not clearly upregulated despite the strong SASP response.
 
-## Notes and Caveats
-
-- **Upstream steps are not included.** Read trimming (fastp) and alignment (HISAT2) must be done beforehand; this repo starts from sorted BAM files in `input_data/2_hisat2/`.
-- **Sample metadata is hard-coded** in the notebook (two siZNF512B, then two Control). It is assigned to samples by position, so check that the column order in `raw_counts.tsv` matches before running DESeq2.
-- **Run order:** the volcano plot cell saves into `output_data/gsea_results/`, but that folder is only created later in the notebook. If it doesn't exist yet, create it first or run the `os.makedirs` cell earlier.
-- The R script assumes **single-end, unstranded** reads. Adjust `isPairedEnd` and `strandSpecific` in `featureCounts()` for other library types.
-- The input `renv.lock` and `senmayo_gene_set.txt` files need to be supplied by you.
-
 ## Reference
 
 Original study: *"ZNF512B protects critical regulatory regions to safeguard long term genomic integrity."* Raw sequencing data are from the public repositories associated with this publication (e.g. SRA run `SRR19647642` / GEO sample `GSM6241345`).
