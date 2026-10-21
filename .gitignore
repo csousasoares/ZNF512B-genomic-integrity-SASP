@@ -1,0 +1,6 @@
+# Alignment files and indexes
+*.bam
+*.bam.bai
+*.bai
+*.bam.csi
+*.csi

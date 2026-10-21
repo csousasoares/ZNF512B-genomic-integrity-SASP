@@ -1,0 +1,10 @@
+name: bioinformatic_analyses
+channels:
+  - defaults
+dependencies:
+  - jupyterlab
+  - jupyter_server
+  - notebook
+  - scikit-image
+  - ipywidgets
+prefix: C:\Users\cdsou\miniconda3\envs\bioinformatic_analyses

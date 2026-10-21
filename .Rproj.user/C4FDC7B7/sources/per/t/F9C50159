@@ -1,0 +1,27 @@
+{
+    "id": "F9C50159",
+    "path": "~/Desktop/GSE206071/featureCounts_script.R",
+    "project_path": "featureCounts_script.R",
+    "type": "r_source",
+    "hash": "4138461189",
+    "contents": "",
+    "dirty": false,
+    "created": 1789951758822.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "95,0",
+        "scrollLine": "81",
+        "disableDependencyDiscovery": "1"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1789952671,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1789952671794,
+    "read_only": false,
+    "read_only_alternatives": []
+}
